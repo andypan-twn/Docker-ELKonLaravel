@@ -1,0 +1,19 @@
+version: "3.5"
+services:
+  web:
+    container_name: ${APP_NAME}
+    hostname: ${APP_NAME}
+    networks:
+    - LAN
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - ${APP_PORT}:8080
+    volumes:
+      - ./:/var/www/html/
+
+networks:
+  LAN:
+    driver: bridge
+    name: web_elk_LAN

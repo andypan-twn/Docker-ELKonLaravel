@@ -31,17 +31,17 @@ E.L.K. example for PHP laravel via docker.
 
 6. `Management` 分頁 找到 Kibana `Index Patterns` 連結
 
-![image](https://github.com/andykuen/Docker-ELKonLaravel/blob/master/assets/images/kibana_01.png)
+![image](https://github.com/andykuen/Docker-ELKonLaravel/blob/master/images/kibana_01.png)
 
 7. 設定 E.L.K. index 資訊
 
-![image](https://github.com/andykuen/Docker-ELKonLaravel/blob/master/assets/images/kibana_02.png)
+![image](https://github.com/andykuen/Docker-ELKonLaravel/blob/master/images/kibana_02.png)
 
-![image](https://github.com/andykuen/Docker-ELKonLaravel/blob/master/assets/images/kibana_03.png)
+![image](https://github.com/andykuen/Docker-ELKonLaravel/blob/master/images/kibana_03.png)
 
 8. `Discover` 分頁 即可看到相關資訊。
 
-![image](https://github.com/andykuen/Docker-ELKonLaravel/blob/master/assets/images/kibana_04.png)
+![image](https://github.com/andykuen/Docker-ELKonLaravel/blob/master/images/kibana_04.png)
 
 ## 新增一筆資料
 

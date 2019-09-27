@@ -44,7 +44,7 @@ services:
     volumes:
       - ./ELK/logstash/pipeline:/usr/share/logstash/pipeline:ro
       - ./ELK/logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
-      - ./ELK/logstash/inputFile/:/home/inputFile
+      - ./storage/logs/:/home/inputFile
     networks:
       - LAN
 

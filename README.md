@@ -48,9 +48,9 @@ E.L.K. example for PHP laravel via docker.
 ### URL
 [`POST`] `http://127.0.0.1:{APP_PORT}/api/log`
 
-### POST BODY
+### BODY (application/json)
 ```JSON
 {
-    msg: '你想要的內容',
+    "msg": "你想要的內容"
 }
 ```

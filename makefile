@@ -12,3 +12,6 @@ del: .docker-down
 
 .docker-down:
 	docker-compose down
+
+install:
+	docker exec -it ${APP_NAME} composer install
